@@ -1,4 +1,4 @@
-# housekeepingbook
+# Housekeeping Book for Seungho
 
 A new Flutter application.
 
