@@ -1,4 +1,4 @@
-# Housekeeping Book for Seungho
+# Housekeeping Book for 19-summer Seungho Family
 
 A new Flutter application.
 
