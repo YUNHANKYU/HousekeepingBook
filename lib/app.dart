@@ -23,7 +23,7 @@ class Bbumm extends StatelessWidget {
       },
       title: 'Bbumm',
       theme: ThemeData(
-        primaryColor: Colors.red,
+        primaryColor: Color.fromRGBO(105, 192, 201, 1),
         primarySwatch: Colors.blue,
         scaffoldBackgroundColor: Colors.white,
       ),
