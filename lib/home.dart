@@ -8,7 +8,7 @@ class Home extends StatelessWidget {
         title: Text("Bbumm"),
       ),
       body: Center(
-        child: Text("Yeeeeeeee"),
+        child: Text("Home"),
       ),
     );
   }
