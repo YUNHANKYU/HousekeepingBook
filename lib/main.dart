@@ -2,4 +2,4 @@ import 'package:flutter/material.dart';
 import 'app.dart';
 import 'splashscreen.dart';
 
-void main() => runApp(Bbumm());
+void main() => runApp(Bboomm());

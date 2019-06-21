@@ -3,12 +3,13 @@ import 'package:flutter/material.dart';
 import 'splashscreen.dart';
 import 'home.dart';
 import 'login.dart';
+import 'maps.dart';
 //
 //import 'package:firebase_auth/firebase_auth.dart';
 //import 'package:firebase_messaging/firebase_messaging.dart';
 //
 //
-class Bbumm extends StatelessWidget {
+class Bboomm extends StatelessWidget {
 //  FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
 //
   @override
@@ -27,7 +28,7 @@ class Bbumm extends StatelessWidget {
         primarySwatch: Colors.blue,
         scaffoldBackgroundColor: Colors.white,
       ),
-      home: Home(),
+      home: Step1(),
 //      home: StreamBuilder(
 //          stream: FirebaseAuth.instance.onAuthStateChanged,
 //          builder: (BuildContext context, snapshot) {
