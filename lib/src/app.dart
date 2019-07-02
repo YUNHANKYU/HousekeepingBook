@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-import 'package:housekeepingbook/src/splashscreen.dart';
+import 'splashscreen.dart';
 import 'home.dart';
 import 'login.dart';
-
+import 'maps.dart';
 import 'expanse.dart';
 //
 //import 'package:firebase_auth/firebase_auth.dart';
 //import 'package:firebase_messaging/firebase_messaging.dart';
 //
 //
-class Bbumm extends StatelessWidget {
+class Bboomm extends StatelessWidget {
 //  FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
 //
   @override
@@ -25,8 +25,8 @@ class Bbumm extends StatelessWidget {
       },
       title: 'Bbumm',
       theme: ThemeData(
-        primaryColor: Colors.red,
-        primarySwatch: Colors.green,
+        primaryColor: Color.fromRGBO(105, 192, 201, 1),
+        primarySwatch: Colors.blue,
         scaffoldBackgroundColor: Colors.white,
       ),
       home: Expense(),
@@ -41,7 +41,7 @@ class Bbumm extends StatelessWidget {
 //                return Home();
 //              }
 //              return Login();
-//              // return LoginScreen();
+//              // return Login();
 //            }
 //          }
 //      ),

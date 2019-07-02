@@ -30,8 +30,8 @@ class _SplashScreenState extends State<SplashScreen> {
                   end: Alignment.bottomCenter,
                   // 10% of the width, so there are ten blinds.
                   colors: [
-                    const Color.fromRGBO(169, 237, 112, 1),
-                    const Color.fromRGBO(245, 243, 106, 1)
+                    const Color.fromRGBO(105, 192, 201, 1),
+                    const Color.fromRGBO(105, 192, 201, 1),
                   ],
                   tileMode:
                   TileMode.repeated, // repeats the gradient over the canvas
@@ -40,18 +40,13 @@ class _SplashScreenState extends State<SplashScreen> {
             ),
             SafeArea(
               child: Center(
-                  child: Material(
-                    color: Colors.transparent,
-                    child: Text(
-                      "Bbumm",
-                      style: TextStyle(
-                          fontSize: 75.0,
-                          color: Colors.white,
-                          fontFamily: 'Nanum Gothic',
-                          fontWeight: FontWeight.bold,
-                          fontStyle: FontStyle.italic),
-                    ),
-                  )),
+                child: Column(
+                  children: <Widget>[
+                    Padding(padding: EdgeInsets.only(top: MediaQuery.of(context).size.height*0.2)),
+                    Image(image: AssetImage('assets/splash.png'), width: 250.0,),
+                  ],
+                ),
+              ),
             ),
           ],
         ));
