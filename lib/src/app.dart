@@ -29,7 +29,7 @@ class Bboomm extends StatelessWidget {
         primarySwatch: Colors.blue,
         scaffoldBackgroundColor: Colors.white,
       ),
-      home: Expanse(),
+      home: Expense(),
 //      home: StreamBuilder(
 //          stream: FirebaseAuth.instance.onAuthStateChanged,
 //          builder: (BuildContext context, snapshot) {
