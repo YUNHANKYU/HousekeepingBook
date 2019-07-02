@@ -26,10 +26,10 @@ class Bbumm extends StatelessWidget {
       title: 'Bbumm',
       theme: ThemeData(
         primaryColor: Colors.red,
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.green,
         scaffoldBackgroundColor: Colors.white,
       ),
-      home: Expanse(),
+      home: Expense(),
 //      home: StreamBuilder(
 //          stream: FirebaseAuth.instance.onAuthStateChanged,
 //          builder: (BuildContext context, snapshot) {
